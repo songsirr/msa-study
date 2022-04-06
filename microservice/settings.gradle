@@ -1,3 +1,0 @@
-include ':microservice:post-service'
-include ':microservice:user-service'
-include ':microservice:product-service'
