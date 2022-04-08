@@ -3,4 +3,4 @@ server.port: 7000
 logging:
   level:
     root: INFO
-    mj.song.microservices: DEBUG
+    mj.song: DEBUG
