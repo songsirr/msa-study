@@ -1,0 +1,14 @@
+server.port: 7002
+
+logging:
+  level:
+    root: INFO
+    mj.song: DEBUG
+
+app:
+  post-service:
+    host: localhost
+    port: 7000
+  user-service:
+    host: localhost
+    port: 7001

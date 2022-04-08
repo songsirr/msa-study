@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'mj.song.microservices.core.user'
+group = 'mj.song.microservices.core.management'
 version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
@@ -25,7 +25,7 @@ repositories {
 
 
 dependencies {
-	implementation project(":util")
+	implementation project(':util')
 	implementation('org.springframework.boot:spring-boot-starter-actuator')
 	implementation('org.springframework.boot:spring-boot-starter-webflux')
 	implementation('org.projectlombok:lombok')
