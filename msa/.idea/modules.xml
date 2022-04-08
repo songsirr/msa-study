@@ -10,6 +10,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/microservices/user-service/msa.microservices.user-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/msa.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/msa.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/msa.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/msa.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/msa.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/msa.util.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util.iml" />
     </modules>
   </component>
 </project>
