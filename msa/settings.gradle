@@ -1,4 +1,0 @@
-include ':microservices:post-service'
-include ':microservices:user-service'
-include 'util'
-
