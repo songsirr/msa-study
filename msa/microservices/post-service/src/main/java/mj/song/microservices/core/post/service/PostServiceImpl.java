@@ -18,7 +18,7 @@ public class PostServiceImpl implements PostService {
     @Override
     public List<Post> getPostsByUserId(long userId) {
         List<Post> list = new ArrayList<>();
-        for (int i = 1; i <= 3; i++){
+        for (long i = 1; i <= 3; i++){
             list.add(new Post(i, userId, "user" + userId + "'s post no." + i));
         }
         LOG.debug("call api getPostsByUserId of size {} with userId: {}", list.size(), userId);
