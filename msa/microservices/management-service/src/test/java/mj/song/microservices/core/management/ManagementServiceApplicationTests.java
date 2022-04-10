@@ -61,7 +61,7 @@ class ManagementServiceApplicationTests {
 	}
 
 	@Test
-	private void getManagementInfoOK(){
+	void getManagementInfoOK(){
 		client.get()
 			.uri("/management/" + USER_ID_OK)
 			.accept(APPLICATION_JSON)
@@ -74,7 +74,7 @@ class ManagementServiceApplicationTests {
 	}
 
 	@Test
-	private void getManagementInfoNotFound(){
+	void getManagementInfoNotFound(){
 		client.get()
 				.uri("/management/" + USER_ID_NOT_FOUND)
 				.accept(APPLICATION_JSON)
@@ -87,7 +87,7 @@ class ManagementServiceApplicationTests {
 	}
 
 	@Test
-	private void getManagementInfoInvalid(){
+	void getManagementInfoInvalid(){
 		client.get()
 				.uri("/management/" + USER_ID_INVALID)
 				.accept(APPLICATION_JSON)
