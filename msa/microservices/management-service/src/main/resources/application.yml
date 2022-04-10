@@ -12,3 +12,21 @@ app:
   user-service:
     host: localhost
     port: 7001
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+server:
+  port: 8080
+
+app:
+  post-service:
+    host: post
+    port: 8080
+  user-service:
+    host: user
+    port: 8080
